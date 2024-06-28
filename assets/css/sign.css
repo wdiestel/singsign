@@ -1,0 +1,68 @@
+
+@font-face {
+font-family: "SuttonSignWritingLine";
+src: 
+    local('SuttonSignWritingLine'),
+    url('https://unpkg.com/@sutton-signwriting/font-ttf@1.0.0/font/SuttonSignWritingLine.ttf') format('truetype');
+}
+@font-face {
+font-family: "SuttonSignWritingFill";
+src: 
+    local('SuttonSignWritingFill'),
+    url('https://unpkg.com/@sutton-signwriting/font-ttf@1.0.0/font/SuttonSignWritingFill.ttf') format('truetype');
+}
+@font-face {
+font-family: "SuttonSignWritingOneD";
+src: 
+    local('SuttonSignWritingOneD'),
+    url('https://unpkg.com/@sutton-signwriting/font-ttf@1.0.0/font/SuttonSignWritingOneD.ttf') format('truetype');
+}
+
+/* 
+aŭ tabele:
+https://gist.github.com/LeaVerou/12b1d1e078510900c7ab206da1a0ff2e 
+*/
+
+dl {
+    columns: 2;
+    border-left: 2px dotted black;
+    column-rule: 2px dotted black;
+    border-top: 2px solid black;
+}
+/*
+dt, dd {
+    break-inside: avoid;
+}
+
+dd, dd {
+    break-inside: avoid;
+}
+*/
+
+dt {
+    font-size: xx-large;
+    border-top: 1px dotted silver;
+    padding-left: 1em;
+}
+
+dd {
+    break-before: avoid-column;
+    text-align: center;
+}
+
+dd span {
+    display: none;
+}
+
+td:first-of-type {
+    font-size: xx-large;
+    text-align: right;
+}
+
+td:nth-of-type(2) {
+    text-align: center;
+}
+
+td:nth-of-type(2) span {
+    display: none;
+}

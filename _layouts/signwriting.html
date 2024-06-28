@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<script src="https://unpkg.com/@sutton-signwriting/font-ttf@1.5.2/fsw/fsw.js"></script>
+<script src="https://unpkg.com/@sutton-signwriting/font-ttf@1.5.2/font/font.js"></script>
+
+<script>
+function desegnu_gestojn() {
+    document.querySelectorAll("dl>dd").forEach((el)=> {
+        const gesto = el.textContent;
+        if (gesto.match(/^M\d{3}/)) {
+            el.setAttribute("data-sgn",gesto);
+            el.innerHTML = ssw.ttf.fsw.signSvg(gesto);
+        } else if (gesto.match(/^S[\da-f]{5}/)) {
+            el.setAttribute("data-sgn",gesto);
+            el.innerHTML = ssw.ttf.fsw.symbolSvg(gesto);
+        }
+    });
+}    
+
+window.onload = () => {
+
+    ssw.ttf.font.cssAppend(''); 
+    //ssw.ttf.fsw.font.cssAppend('');
+    //ssw.ttf.fsw.
+    ssw.ttf.font.cssLoadedLine(
+            function() {
+                desegnu_gestojn();
+            }
+    );
+}
+</script>
+
+{% if page.js %}
+  {% for js_file in page.js %}
+  <script src='{{ site.baseurl }}/assets/js/{{ js_file }}.js' type="text/javascript"></script>
+  {% endfor %}
+{% endif %}
+
+{% if page.css %}
+  {% for stylesheet in page.css %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}.css" type="text/css">
+  {% endfor %}
+{% endif %}
+
+<article class="post">
+
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>
+  
+    <div class="post-content">
+      {{ content }}
+    </div>
+
+{% if page.next_ch %}
+{% assign next-file = "/" | append: page.next_ch | append: ".md"  %}
+{% assign next-page = site[page.collection] | where_exp: "item", "item.path contains next-file" | first %}
+{% if next-page %}
+<a class="sekva_folio" href="{{next-page.url}}">{{next-page.title}}</a>
+{% endif %}
+{% endif %}
+
+  
+</article>
