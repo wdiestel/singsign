@@ -28,6 +28,7 @@ dl {
     border-left: 2px dotted black;
     column-rule: 2px dotted black;
     border-top: 2px solid black;
+    column-gap: 0;
 }
 /*
 dt, dd {
