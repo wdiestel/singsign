@@ -48,7 +48,10 @@ window.onload = () => {
       const viewBox = svg.getAttribute("viewBox");
       const n4 = viewBox.split(" ");
       const width = parseFloat(n4[2]);
+      const height = parseFloat(n4[3]);
       // set width to a scaled value
+      //svg.setAttribute("preserveAspectRatio","XMidYMin slice");
+      svg.setAttribute("height",height*procent/100)
       svg.setAttribute("width",width*procent/100)
     });
     // scale ul font

@@ -106,11 +106,17 @@ td:nth-of-type(2) span {
 }
 
 @media print {
-    header, footer {
+    header, footer, .scale {
         display: none
     }
 
-    dt, blockquote {
+    blockquote {
+        /* we hide the DGS hints on the printout to
+        minimize the space needed for the text*/
+        display: none
+    }
+
+    dt {
         font-size: medium;
     }
 
