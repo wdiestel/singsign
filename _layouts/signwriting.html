@@ -79,7 +79,7 @@ window.onload = () => {
 <article class="post">
 
     <header class="post-header">
-      <h1 class="post-title">{{ page.title | escape }}</h1>
+      <h2 class="post-title">{{ page.title2 | escape }}</h1>
     </header>
 
     <div class="scale">
@@ -87,9 +87,11 @@ window.onload = () => {
       <input type="range" id="scale" name="scale" min="50" max="150" value=100 step="10"/>
       <label id="scale_pct">100%</label>
     </div>    
-  
+
     <div class="post-content">
-      {{ content }}
+      <div class="signs">
+        {{ content }}
+      </div>
     </div>
 
 {% if page.next_ch %}

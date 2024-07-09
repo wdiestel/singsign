@@ -106,8 +106,18 @@ td:nth-of-type(2) span {
 }
 
 @media print {
+    /*header*/
+    
     header, footer, .scale {
         display: none
+    }
+
+    .post-header {
+        display: block;
+    }
+
+    .post-header h2 {
+        font-size: large
     }
 
     blockquote {
