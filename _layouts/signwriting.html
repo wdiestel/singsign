@@ -3,8 +3,8 @@ layout: default
 ---
 
 <link rel="preload" href="https://unpkg.com/@sutton-signwriting/font-ttf@1.0.0/font/SuttonSignWritingLine.ttf" as="font" type="font/ttf" crossorigin />
-<link rel="preload" href="https://unpkg.com/@sutton-signwriting/font-ttf@1.0.0/font/SuttonSignWritingFill.ttf'" as="font" type="font/ttf" crossorigin />
-<link rel="preload" href="https://unpkg.com/@sutton-signwriting/font-ttf@1.0.0/font/SuttonSignWritingOneD.ttf'" as="font" type="font/ttf" crossorigin />
+<link rel="preload" href="https://unpkg.com/@sutton-signwriting/font-ttf@1.0.0/font/SuttonSignWritingFill.ttf" as="font" type="font/ttf" crossorigin />
+<link rel="preload" href="https://unpkg.com/@sutton-signwriting/font-ttf@1.0.0/font/SuttonSignWritingOneD.ttf" as="font" type="font/ttf" crossorigin />
 
 
 <script src="https://unpkg.com/@sutton-signwriting/font-ttf@1.5.2/fsw/fsw.js"></script>
@@ -97,6 +97,9 @@ window.onload = () => {
 {% if page.next_ch %}
 {% assign next-file = "/" | append: page.next_ch | append: ".md"  %}
 {% assign next-page = site[page.collection] | where_exp: "item", "item.path contains next-file" | first %}
+<!--
+<span>{{next-file}}</span>
+-->
 {% if next-page %}
 <a class="sekva_folio" href="{{next-page.url}}">{{next-page.title}}</a>
 {% endif %}
