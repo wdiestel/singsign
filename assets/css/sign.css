@@ -30,47 +30,19 @@ https://gist.github.com/LeaVerou/12b1d1e078510900c7ab206da1a0ff2e
     align-items: stretch;
 }
 
-.signs > ul {
+.signs > ul, .signs > ol {
     flex: 0.1 0.1 18%;
-
     list-style: none;
     margin: 0;
-
     font-size: x-large;
-
-    /*
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
-    grid-template-columns: 1fr;    
-    grid-template-rows: repeat(3,1fr);
-    */
-
-    /*grid-auto-columns: 1fr;*/
-
-    /*align-items: stretch;*/
-
-
- 
-
-/*
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    */
-
-    /*columns: 2;
-    column-rule: 2px dotted black;
-    column-gap: 0;
-    */
     border: 1px solid black;
 }
 
-ul li {
+ul li, ol li {
     text-indent: 0.3em;
 }
 
-ul ul {
+ul ul, ol ul {
     list-style: none;
     text-align: center;
     margin: 0;
