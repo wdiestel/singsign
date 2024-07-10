@@ -12,7 +12,7 @@ layout: default
 
 <script>
 function desegnu_gestojn() {
-    document.querySelectorAll("dd,td,li").forEach((el)=> {
+    document.querySelectorAll("dd,td,li,.sign").forEach((el)=> {
         const gesto = el.textContent;
         if (gesto.match(/^M\d{3}/)) {
             el.setAttribute("data-sgn",gesto);
@@ -83,8 +83,8 @@ window.onload = () => {
     </header>
 
     <div class="scale">
-      <label for="scale">Vergrößerung</label>
-      <input type="range" id="scale" name="scale" min="50" max="150" value=100 step="10"/>
+      <label for="scale" class="sign">M541x521S14c10518x479S14c18460x481S27102502x481S2711a485x480</label>
+      <input type="range" id="scale" name="scale" min="50" max="150" value=100 step="10" style="width: 20em"/>
       <label id="scale_pct">100%</label>
     </div>    
 
