@@ -27,6 +27,7 @@ https://gist.github.com/LeaVerou/12b1d1e078510900c7ab206da1a0ff2e
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    row-gap: 2em;
     align-items: stretch;
 }
 
@@ -35,7 +36,12 @@ https://gist.github.com/LeaVerou/12b1d1e078510900c7ab206da1a0ff2e
     list-style: none;
     margin: 0;
     font-size: x-large;
-    border: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.signs > ul:first-child,
+.signs > ol:first-child {
+    border-left: none;
 }
 
 ul li, ol li {
@@ -48,6 +54,41 @@ ul ul, ol ul {
     margin: 0;
 }
 
+.parts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+  
+.part {
+    padding: 1em;
+    border-left: 1px solid black;
+}
+
+.part:first-child {
+    border-left: none;
+}
+
+.part-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.part-list ul {
+    list-style: none;
+    margin: 0;
+    font-size: x-large;
+}
+
+.sec {
+    font-size: x-large;
+    margin: 0.3em;
+    break-after: avoid;
+
+    border-radius: 0.5em;
+    background-color: #e2e2db;
+    padding: 0.5em;
+}
 
 dt {
     font-size: x-large;
@@ -114,9 +155,16 @@ td:nth-of-type(2) span {
     }      
     */   
 
-    .signs > ul {
-        border: 1pt solid black;
+    .signs > ul,
+    .signs > ol {
+        border-left: 1pt solid black;
+    }   
+    
+    .signs > ul:first-child,
+    .signs > ol:first-child {
+        border-left: none;
     }    
+    
 
     svg {
         

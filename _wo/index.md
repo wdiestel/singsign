@@ -17,8 +17,14 @@ https://www.signbank.org/signpuddle2.0/searchword.php
 https://www.sutton-signwriting.io/signmaker
 -->
 
-1\. Kantate
+
+<div class="parts">
+<div class="part">
+
+### 1\. Kantate
 {: .sec}
+
+<div class="part-list">
 
 - [Chor 1](wo_01)
   + M550x564S34400482x483S1ed20469x545S2d608499x539S10000535x508S2f900536x542  
@@ -28,12 +34,15 @@ https://www.sutton-signwriting.io/signmaker
   + M569x564S34400482x483S1ed20469x545S2d608499x539S2f900536x535S14c09519x511S1dc01546x509
 - [Choral 9](wo_09)
   + M570x564S34400482x483S1ed20469x545S2d608499x539S2f900541x535S14c08524x501S14400548x502
+</div>
+</div>
 
-^ 
+<div class="part">
 
-3\. Kantate
-{: .sec} 
+### 3\. Kantate
+{: .sec}
 
+<div class="part-list">
 - [Chor 24](wo_24)
   + M580x564S34400482x483S1ed20469x545S2d608499x539S2f900541x535S14401519x509S1dc01555x508S21800562x502
 - [Chor 26](wo_26)
@@ -44,3 +53,6 @@ https://www.sutton-signwriting.io/signmaker
   + M578x564S34400482x483S1ed20469x545S2d608499x539S26606544x512S2f900528x490S2f900565x490S26500564x497S11e01518x509S26500527x498
 - [Choral 35](wo_35)
   + M574x564S34400482x483S1ed20469x545S2d608499x539S14c00523x500S12200552x504S26500528x481S21600555x492
+</div>
+</div>
+</div>
