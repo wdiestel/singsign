@@ -1,0 +1,28 @@
+---
+---
+/* customizing did not work as explained in https://github.com/jekyll/minima
+  maybe documentation is newer than the used version? */
+@import "{{ site.theme }}";
+
+body {
+  color: #000;
+}
+.site-header {
+  background: #e2e2db;
+}
+.site-header {
+  border-bottom: 1px solid gray;
+}
+.site-footer {
+  border-top: 1px solid gray;
+}
+
+.trigger {
+  line-height: 26px;
+}
+.site-nav .page-link:not(:last-child) {
+  margin-right: 0.1em;
+}
+.site-nav .page-link:not(:last-child)::after {
+  content: "\0a\b7"
+}

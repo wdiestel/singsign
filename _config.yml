@@ -33,8 +33,10 @@ kramdown:
 
 collections:
   wo:
+    title: "Weihnachtsoratorium"
     output: true
   jp:
+    title: "Johannespassion"
     output: true
 
 
