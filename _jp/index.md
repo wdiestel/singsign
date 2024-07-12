@@ -1,6 +1,6 @@
 ---
 layout: signwriting
-title: parts
+title: Akte
 css:
     - sign
 ---
@@ -44,7 +44,7 @@ https://www.sutton-signwriting.io/signmaker
 
 <div class="part">
 
-###  part III
+### Akt III
 {: .sec}
 <div class="part-list">
 - [Choral 15](jopa_15)
@@ -69,7 +69,7 @@ https://www.sutton-signwriting.io/signmaker
 <div class="parts">
 <div class="part">
 
-###  part IV
+### Akt IV
 {: .sec}
 <div class="part-list">
 - [Chor 25](jopa_25)
@@ -88,7 +88,7 @@ https://www.sutton-signwriting.io/signmaker
 
 <div class="part">
 
-###  part V
+### Akt V
 {: .sec}
 
 <div class="part-list">

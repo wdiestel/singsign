@@ -20,9 +20,14 @@ body {
 .trigger {
   line-height: 26px;
 }
-.site-nav .page-link:not(:last-child) {
+.site-nav .page-current {
+  font-weight: bold;
+}
+.site-nav .page-link:not(:last-child),
+.site-nav .page-current:not(:last-child) {
   margin-right: 0.1em;
 }
-.site-nav .page-link:not(:last-child)::after {
+.site-nav .page-link:not(:last-child)::after,
+.site-nav .page-current::after {
   content: "\0a\b7"
 }

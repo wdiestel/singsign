@@ -23,7 +23,11 @@
           </label>
           <div class="trigger">
             {% for item in site[page.collection] %}
-            <a class="page-link" href="{{ item.url | relative_url }}">{{ item.title | escape}}</a>
+            {% if page.url == item.url %}
+              <span class="page-current">{{ item.title }}</span>
+            {% else %}
+              <a class="page-link" href="{{ item.url | relative_url }}">{{ item.title | escape}}</a>
+            {% endif %}
             {% endfor %}
           </div>
         </nav>
