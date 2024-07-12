@@ -11,7 +11,7 @@ title: Sing&Sign - Gebärdentexte
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Gebärdentexte für Aufführungen von Sing&Sign
-baseurl: "/sing_sign" # the subpath of your site, e.g. /blog
+baseurl: "/singsign" # the subpath of your site, e.g. /blog
 url: "https://wdiestel.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  wdiestel
