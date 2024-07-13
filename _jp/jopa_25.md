@@ -1,7 +1,7 @@
 ---
 layout: signwriting
 title: Chor 25
-title2: Johannespassion / 15b. Chor – Schreibe nicht
+title2: Johannespassion / 25b. Chor – Schreibe nicht
 next_ch: jp_23
 css:
     - sign
@@ -11,8 +11,6 @@ css:
 https://www.signbank.org/signpuddle2.0/searchword.php
 https://www.sutton-signwriting.io/signmaker
 -->
-
-### 25b. Chor DGS-nah – Schreibe nicht √
 
 - Schreibe nicht: der Jüden König,
     + > TITEL NICHT  JUDE   KÖNIG,
