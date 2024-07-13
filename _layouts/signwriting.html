@@ -28,7 +28,7 @@ function sign_render(el) {
     if (sign.match(/^M\d{3}/)) {
         el.setAttribute("data-sgn",sign);
         el.innerHTML = ssw.ttf.fsw.signSvg(sign);
-    } else if (gesto.match(/^S[\da-f]{5}/)) {
+    } else if (sign.match(/^S[\da-f]{5}/)) {
         el.setAttribute("data-sgn",sign);
         el.innerHTML = ssw.ttf.fsw.symbolSvg(sign);
     }    
