@@ -96,6 +96,13 @@ window.onload = () => {
       <h2 class="post-title">{{ page.title2 | escape }}</h1>
     </header>
 
+    {% if page.version %}
+    <div id="version">
+      <span class="sign">M524x520S14c18476x483S10012494x505S20600499x481</span>
+      <span>{{ page.version }}</span>
+    </div>    
+    {% endif %}
+
     <div class="scale">
       <label for="scale" class="sign">M541x521S14c10518x479S14c18460x481S27102502x481S2711a485x480</label>
       <input type="range" id="scale" name="scale" min="50" max="150" value=100 step="10" style="width: 20em"/>

@@ -133,10 +133,14 @@ td:nth-of-type(2) span {
     display: none;
 }
 
+#version {
+    text-align: right;
+}
+
 @media print {
     /*header*/
     
-    header, footer, .scale {
+    header, footer, .scale, #version .sign {
         display: none
     }
 
