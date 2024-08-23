@@ -38,6 +38,9 @@ collections:
   jp:
     title: "Johannespassion"
     output: true
+  k131:
+    title: "Aus der Tiefen"
+    output: true    
 
 
 # Exclude from processing.
