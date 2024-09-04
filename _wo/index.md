@@ -37,6 +37,25 @@ https://www.sutton-signwriting.io/signmaker
 </div>
 </div>
 
+
+<div class="part">
+
+### 2\. Kantate
+{: .sec}
+
+<div class="part-list">
+- [Choral 12](wo_12)
+  + M583x564S34400482x483S1ed20469x545S2d608499x539S1dc02516x514S1dc50559x496S2df08541x495  
+- [Choral 17](wo_17)
+  + M602x564S34400482x483S1ed20469x545S2d608499x539S14c58537x497S2e74c524x505S2e734586x505S1dc50561x498  
+- [Chor 21](wo_21)
+  + M577x564S34400482x483S1ed20469x545S2d608499x539S10000525x501S2f900527x533S1dc01553x507S21800559x501  
+- [Choral 23](wo_23)
+  + M577x564S34400482x483S1ed20469x545S2d608499x539S2f900527x533S1dc01553x507S21800559x501S11e00524x500  
+
+</div>
+</div>
+
 <div class="part">
 
 ### 3\. Kantate
