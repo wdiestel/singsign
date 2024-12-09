@@ -40,7 +40,10 @@ collections:
     output: true
   k131:
     title: "Aus der Tiefen"
-    output: true    
+    output: true   
+  lt:
+    title: "Liedtexte"
+    output: true         
 
 
 # Exclude from processing.
