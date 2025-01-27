@@ -41,6 +41,9 @@ collections:
   k131:
     title: "Aus der Tiefen"
     output: true   
+  schuetz:
+    title: "Heinrich Schütz"
+    output: true
   lt:
     title: "Liedtexte"
     output: true         
