@@ -93,5 +93,11 @@ https://www.sutton-signwriting.io/signmaker
 ### [Verleih uns Frieden, SWV 372](schuetz/swv372)
 {: .sec}
 
+### [Lobe den Herren, SWV 39](schuetz/swv039)
+{: .sec}
+
+### [Aus der Tiefe, SWV 25](schuetz/swv025)
+{: .sec}
+
 </div>
 </div>
