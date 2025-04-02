@@ -38,8 +38,8 @@ collections:
   jp:
     title: "Johannespassion"
     output: true
-  k131:
-    title: "Aus der Tiefen"
+  bach:
+    title: "Johann Sebastian Bach"
     output: true   
   schuetz:
     title: "Heinrich Schütz"
