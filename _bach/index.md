@@ -1,24 +1,44 @@
 ---
 layout: signwriting
-title: Kantanten
-css:
-    - sign
+title: Bachwerke
+#css:
+#    - sign
 ---
 
+<!--
 <style>
   .sec {
     font-size: x-large;
     margin: 0.3em;
   }
 </style>  
+-->
 
 <!--
 https://www.signbank.org/signpuddle2.0/searchword.php
 https://www.sutton-signwriting.io/signmaker
 -->
 
-# BWV 131, Aus der Tiefen
+<!-- 
+{% assign mat = site.bach | sort: "title" %}
+{% for t in mat %}
+{% unless t.url contains "index" %}
+  {% if t.title %}
+* [{{ t.title | escape }}]({{ t.url | relative_url }})
+  {% endif %}  
+{% endunless %}
+{% endfor %}
+-->
 
+- [Aus der Tiefen, BWV 131](bwv131_01)
+- [Jesus bleibet meine Freude, BWV147](bwv147)
+- [Jesu meine Freude, BWV 227](bwv227_01)
+- [Welt ade, BWV 27](bwv27)
+- [Zwingt die Saiten, BWV 36](bwv36)
+
+
+<!--
+# BWV 131, Aus der Tiefen
 
 <div class="parts">
 <div class="part">
@@ -38,3 +58,5 @@ https://www.sutton-signwriting.io/signmaker
 </div>
 
 </div>
+-->
+
