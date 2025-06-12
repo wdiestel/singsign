@@ -23,6 +23,8 @@ echo "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 #
 # alternative forigu ruby+bundle(r) de via sistemo kaj
 # instalu tutaktualajn eldonojn mane:...
+# https://www.ruby-lang.org/en/documentation/installation/#apt
+# https://deanpcmad.com/2024/installing-older-ruby-versions-on-ubuntu-24-04-and-22-04/
 
 # pri eblaj problemoj kun Ruby, rvm:
 # https://rvm.io/support/faq
