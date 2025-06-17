@@ -1,12 +1,19 @@
-\score {
-	\header {
-	  title = "BWV 27, 6. Choral, Welt ade!"
-	  composer = "J. S. Bach"
-	}
-	
+
+\header {
+	title = "BWV 27, 6. Choral, Welt ade!"
+	composer = "J. S. Bach"
+}
+
+\score {	
     \new ChoirStaff <<
-      \new Staff <<
+      \new Staff 
+\with {
+  instrumentName = "Sopran"
+  shortInstrumentName = "S."
+}               
+      <<
 	\transpose c c' {
+  
 	  \relative {
 	    \time 2/2
 	    \key f \major
@@ -15,11 +22,11 @@
 	    <<
 	    \new Voice = "Sopran I"
 	    { \voiceOne
-	    r2 r4 d'8 d f4. f8 es4 c d2 c r4 bes8 bes bes a bes c d4 c bes2
-	    d4 e f d c bes a2 g4 d'8 d es2( es4) d c4. c8 bes1
+	    r2 r4 d'8 d f4. f8 es4 c d2 c r4 bes8 bes bes( a) bes( c) d4 c bes2
+	    d4 e f d c bes a2 g4 d'8 d es2( es4) d^"-ge" c4.^"stol -" c8^"ze" bes1
 	    a4 a bes c d4. d8 cis2 f4 f e d e4. d8 d2
 	    bes\breve c1 d\breve f1 es\breve es1 d\breve.
-	    f\breve f1 f\breve. es1 c1. c2 bes\breve.
+	    f\breve f1 f\breve. es1^"und" c1.^"See-" c2^"lig-" bes\breve.^"keit."
 	    \time 3/1 
 	    } % voiceOne
 	    %\\
@@ -47,7 +54,12 @@
 	} % lyrics
       >> % Staff
 	
-      \new Staff <<
+      \new Staff 
+\with {
+  instrumentName = "Alt"
+  shortInstrumentName = "A."  
+}      
+      <<
 	\transpose c c' {
 	  \relative {
 	    \time 2/2
@@ -56,7 +68,7 @@
    	    \autoBeamOff
 	    <<
 	    \new Voice = "Alt"
-	    { \voiceOne
+	    { %\voiceOne
 	    f4 f f2( f4) f g f f2 f4 f8 f d2. bes4 bes c d2
 	    f4 es d d f d d2 d g4 g f4. f8 f4 f f1
 	    f4 d d e d4. d8 e2 f4 f g f e4. e8 fis2
@@ -76,7 +88,12 @@
 	} % lyrics
             
       >> % Staff
-	\new Staff <<
+	\new Staff 
+\with {
+  instrumentName = "Tenor"
+  shortInstrumentName = "T."
+}    	
+	<<
 	  \transpose c c' {
 	  \relative {
 	    \clef "treble_(8)"
@@ -86,7 +103,7 @@
    	    \autoBeamOff
 	    <<
 	    \new Voice = "Tenor"
-	    { \voiceOne
+	    { %\voiceOne
 	      d4 d d2( d4) d c c bes2 c4 a8 a bes2. bes4 bes a bes2
 	      bes4 g f bes c g a2 bes2. bes8 bes c4 bes c4. c8 d1
 	      d4 d bes a d d, a'2 a4 c c a a4. a8 a2
@@ -107,7 +124,12 @@
 	} % lyrics
 	>> % Staff
 	
-	\new Staff <<
+	\new Staff 
+\with {
+  instrumentName = "Bass"
+  shortInstrumentName = "B."  
+}    	
+	<<
 	  %\transpose c c' 
 	  {
 	  \relative {
@@ -118,7 +140,7 @@
    	    \autoBeamOff
 	    <<
 	    \new Voice = "Bass"
-	    { \voiceOne
+	    { %\voiceOne
 	      bes4 bes bes2( bes4) d,4 es f bes,2 f4 f'8 f g2. g4 bes f bes,2
 	      bes4 c d bes f g d'2 g,2. g'8 g a4 bes f4. f8 bes,1
 	      d4 d d c bes4. bes8 a2 f4 f c' d a4. a8 d2
